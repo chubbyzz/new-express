@@ -1,0 +1,21 @@
+{
+  "name": "LM-ReclameAqui",
+  "version": "1.0.0",
+  "main": "app/server.js",
+  "author": "jeff",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1"
+  }
+}
